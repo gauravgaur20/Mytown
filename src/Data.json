@@ -1,0 +1,42 @@
+[
+    
+    {
+        "city":"Bengluru",
+        "lng":"77.59",
+        "lat":"12.96",
+        "population":"84.4 lakhs"
+    },
+
+    {
+        "city":"Mumbai",
+        "lng":"72.87",
+        "lat":"19.07",
+        "population":"1.25 crores"
+    },
+
+    {
+        "city":"Delhi",
+        "lng":"77.10",
+        "lat":"28.70",
+        "population":"1.9 crores"
+    },
+
+
+    {
+        "city":"Kolkata",
+        "lng":"88.36",
+        "lat":"22.57",
+        "population":"1.49 crores"
+    },
+
+
+    {
+        "city":"Jaipur",
+        "lng":"75.7873",
+        "lat":"26.9124",
+        "population":"30.5 lakhs"
+    }
+
+
+]
+

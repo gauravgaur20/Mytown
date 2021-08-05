@@ -1,0 +1,76 @@
+*{
+  color:white;
+  background-color:rgb(27, 23, 23);
+}
+
+.App {
+  text-align: center;
+  
+  background-color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.map{
+  display: flex;
+  align-items: center;
+  
+  position: absolute;
+  right:0;
+}
+
+.all{
+
+  height: 100%;
+  width: 100%;
+}
+
+/* The container must be positioned relative: */
+.city{
+  display: inline-block;
+  justify-content: space-between;
+  
+  position:absolute !important;
+  bottom:70%;
+  margin-left: 20px;
+}
+
+.select {
+  width: 30vw;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color:black;
+  font-family:"roboto";
+  
+ 
+
+}
+
+.select::after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--select-arrow);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.population{
+ font-family:"roboto";
+ font-size:20px;
+ margin-bottom:2.5em;
+}
